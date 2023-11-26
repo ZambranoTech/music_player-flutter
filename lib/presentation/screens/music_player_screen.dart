@@ -70,10 +70,9 @@ class ImagenDiscoDuracion extends StatelessWidget {
         Row(
           children: [
             _DiskImage(),
-            SizedBox(
-              width: 60,
-            ),
-          _ProgressBar()
+            Spacer(),
+            _ProgressBar(),
+            Expanded(child: SizedBox())
           ]
         ),
 
